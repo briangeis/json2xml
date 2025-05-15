@@ -1,0 +1,32 @@
+{
+    "name": "Sleeping Kitty",
+    "type": "wallpaper",
+    "image": {
+        "url": "images/kitty.jpg",
+        "width": 1920,
+        "height": 1080,
+        "aspect ratio": 1.778
+    },
+    "thumbnail": {
+        "url": "images/thumbnails/kitty.jpg",
+        "width": 160,
+        "height": 90
+    },
+    "metadata": {
+        "created": "2025:02:11 11:34:47",
+        "modified": "2025:05:09 21:36:21",
+        "keywords": {
+            "tag": [
+                "cat",
+                "kitten",
+                "kitty",
+                "sleeping",
+                "wallpaper"
+            ]
+        }
+    },
+    "permissions": {
+        "read": true,
+        "write": false
+    }
+}

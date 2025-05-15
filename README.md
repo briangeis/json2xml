@@ -31,6 +31,85 @@ Place `json2xml.sh` into desired location and make it executable with
 ./json2xml.sh -atx sample3.json output.xml
 ```
 
+## Sample Output
+
+<details open>
+
+<summary>JSON input</summary>
+
+```json
+{
+    "name": "Sleeping Kitty",
+    "type": "wallpaper",
+    "image": {
+        "url": "images/kitty.jpg",
+        "width": 1920,
+        "height": 1080,
+        "aspect ratio": 1.778
+    },
+    "thumbnail": {
+        "url": "images/thumbnails/kitty.jpg",
+        "width": 160,
+        "height": 90
+    },
+    "metadata": {
+        "created": "2025:02:11 11:34:47",
+        "modified": "2025:05:09 21:36:21",
+        "keywords": {
+            "tag": [
+                "cat",
+                "kitten",
+                "kitty",
+                "sleeping",
+                "wallpaper"
+            ]
+        }
+    },
+    "permissions": {
+        "read": true,
+        "write": false
+    }
+}
+```
+</details>
+
+<details open>
+
+<summary>XML output</summary>
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<name>Sleeping Kitty</name>
+<type>wallpaper</type>
+<image>
+    <url>images/kitty.jpg</url>
+    <width>1920</width>
+    <height>1080</height>
+    <aspect_ratio>1.778</aspect_ratio>
+</image>
+<thumbnail>
+    <url>images/thumbnails/kitty.jpg</url>
+    <width>160</width>
+    <height>90</height>
+</thumbnail>
+<metadata>
+    <created>2025:02:11 11:34:47</created>
+    <modified>2025:05:09 21:36:21</modified>
+    <keywords>
+        <tag>cat</tag>
+        <tag>kitten</tag>
+        <tag>kitty</tag>
+        <tag>sleeping</tag>
+        <tag>wallpaper</tag>
+    </keywords>
+</metadata>
+<permissions>
+    <read>true</read>
+    <write>false</write>
+</permissions>
+```
+</details>
+
 ## XML Name Handling
 
 While the XML specification permits a large group of Unicode symbol characters
