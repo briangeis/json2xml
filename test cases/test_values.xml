@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Token_Test>
+    <name>Literal Name Tokens Test</name>
+    <description>Test case for valid JSON literal name tokens.</description>
+    <literals>
+        <literal>true</literal>
+        <literal>false</literal>
+        <literal>null</literal>
+    </literals>
+</Token_Test>
+<Number_Test>
+    <name>Number Format Test</name>
+    <description>Test case for valid JSON numerical value formats.</description>
+    <numbers>
+        <number>12345</number>
+        <number>123.45</number>
+        <number>0.12345</number>
+        <number>-12345</number>
+        <number>-123.45</number>
+        <number>-0.12345</number>
+        <number>123e45</number>
+        <number>123E45</number>
+        <number>123e+45</number>
+        <number>123E+45</number>
+        <number>123e-45</number>
+        <number>123E-45</number>
+        <number>1.23e45</number>
+        <number>1.23E45</number>
+        <number>1.23e+45</number>
+        <number>1.23E+45</number>
+        <number>1.23e-45</number>
+        <number>1.23E-45</number>
+        <number>0.123e45</number>
+        <number>0.123E45</number>
+        <number>0.123e+45</number>
+        <number>0.123E+45</number>
+        <number>0.123e-45</number>
+        <number>0.123E-45</number>
+        <number>-123e45</number>
+        <number>-123E45</number>
+        <number>-123e+45</number>
+        <number>-123E+45</number>
+        <number>-123e-45</number>
+        <number>-123E-45</number>
+        <number>-1.23e45</number>
+        <number>-1.23E45</number>
+        <number>-1.23e+45</number>
+        <number>-1.23E+45</number>
+        <number>-1.23e-45</number>
+        <number>-1.23E-45</number>
+        <number>-0.123e45</number>
+        <number>-0.123E45</number>
+        <number>-0.123e+45</number>
+        <number>-0.123E+45</number>
+        <number>-0.123e-45</number>
+        <number>-0.123E-45</number>
+    </numbers>
+</Number_Test>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<name>Special Character Test</name>
+<XML_description>Test case to ensure XML reserved characters are escaped.</XML_description>
+<XML_characters>
+    <less_than_sign>Here is a &lt; (less than sign)</less_than_sign>
+    <greater_than_sign>Here is a &gt; (greater than sign)</greater_than_sign>
+    <ampersand>Here is a &amp; (ampersand)</ampersand>
+    <quotation_mark>Here is a &quot; (quotation mark)</quotation_mark>
+    <apostrophe>Here is a &apos; (apostrophe)</apostrophe>
+</XML_characters>
+<JSON_description>Test case to ensure JSON control characters are handled.</JSON_description>
+<JSON_characters>
+    <horizontal_tab>Here is a &#x09; (horizontal tab)</horizontal_tab>
+    <line_feed>Here is a &#x0A; (line feed)</line_feed>
+    <carriage_return>Here is a &#x0D; (carriage return)</carriage_return>
+    <reverse_solidus>Here is a \ (reverse solidus)</reverse_solidus>
+    <solidus>Here is a / (solidus)</solidus>
+    <unicode>Here is a Δ (unicode character)</unicode>
+    <backspace>Ignoring a  (backspace)</backspace>
+    <form_feed>Ignoring a  (form feed)</form_feed>
+</JSON_characters>

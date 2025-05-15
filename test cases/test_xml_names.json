@@ -1,0 +1,10 @@
+{
+    "name": "XML Name Test",
+    "description": "Test case to ensure that only valid XML names are generated.",
+    "names": {
+        "a name with spaces": "Spaces are replaced with underscores",
+        "12345": "Leading underscore is added if the first character is not a valid NameStartChar",
+        "ski!@#$%^&*()pped": "Invalid characters are skipped",
+        "*&%$#@": "No valid characters results in a generic name of element"
+    }
+}

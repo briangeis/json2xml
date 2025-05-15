@@ -1,0 +1,22 @@
+{
+    "name": "Special Character Test",
+    "XML description": "Test case to ensure XML reserved characters are escaped.",
+    "XML characters": {
+        "less than sign": "Here is a < (less than sign)",
+        "greater than sign": "Here is a > (greater than sign)",
+        "ampersand": "Here is a & (ampersand)",
+        "quotation mark": "Here is a \" (quotation mark)",
+        "apostrophe": "Here is a ' (apostrophe)"
+    },
+    "JSON description": "Test case to ensure JSON control characters are handled.",
+    "JSON characters": {
+        "horizontal tab": "Here is a \t (horizontal tab)",
+        "line feed": "Here is a \n (line feed)",
+        "carriage return": "Here is a \r (carriage return)",
+        "reverse solidus": "Here is a \\ (reverse solidus)",
+        "solidus": "Here is a \/ (solidus)",
+        "unicode": "Here is a \u0394 (unicode character)",
+        "backspace": "Ignoring a \b (backspace)",
+        "form feed": "Ignoring a \f (form feed)"
+    }
+}

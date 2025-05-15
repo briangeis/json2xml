@@ -197,6 +197,22 @@ An example error message for an improperly terminated array:
 ./json2xml.sh: error in input file: ',' or ']' expected! (Line 36:9)
 ```
 
+## Test Cases
+
+The following test cases are used to verify proper script operation:
+
+* `test_xml_names.json`: XML Name Handling
+* `test_characters.json`: Special Character Handling
+* `test_values.json`: JSON Numerical Formats and Literals
+
+The following test cases are used to verify proper error handling:
+
+* `error_object.json`: Object missing terminating `}`
+* `error_array.json`: Array missing separating `,`
+* `error_colon.json`: Property missing separating `:`
+* `error_string.json`: String missing terminating `"`
+* `error_value.json`: Numerical value is invalid
+
 ## License
 
  GNU General Public License v3.0

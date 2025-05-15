@@ -1,0 +1,63 @@
+{
+    "Token Test": {
+        "name": "Literal Name Tokens Test",
+        "description": "Test case for valid JSON literal name tokens.",
+        "literals": {
+            "literal": [
+                true,
+                false,
+                null
+            ]
+        }
+    },
+    "Number Test": {
+        "name": "Number Format Test",
+        "description": "Test case for valid JSON numerical value formats.",
+        "numbers": {
+            "number": [
+                12345,
+                123.45,
+                0.12345,
+                -12345,
+                -123.45,
+                -0.12345,
+                123e45,
+                123E45,
+                123e+45,
+                123E+45,
+                123e-45,
+                123E-45,
+                1.23e45,
+                1.23E45,
+                1.23e+45,
+                1.23E+45,
+                1.23e-45,
+                1.23E-45,
+                0.123e45,
+                0.123E45,
+                0.123e+45,
+                0.123E+45,
+                0.123e-45,
+                0.123E-45,
+                -123e45,
+                -123E45,
+                -123e+45,
+                -123E+45,
+                -123e-45,
+                -123E-45,
+                -1.23e45,
+                -1.23E45,
+                -1.23e+45,
+                -1.23E+45,
+                -1.23e-45,
+                -1.23E-45,
+                -0.123e45,
+                -0.123E45,
+                -0.123e+45,
+                -0.123E+45,
+                -0.123e-45,
+                -0.123E-45
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<name>XML Name Test</name>
+<description>Test case to ensure that only valid XML names are generated.</description>
+<names>
+    <a_name_with_spaces>Spaces are replaced with underscores</a_name_with_spaces>
+    <_12345>Leading underscore is added if the first character is not a valid NameStartChar</_12345>
+    <skipped>Invalid characters are skipped</skipped>
+    <element>No valid characters results in a generic name of element</element>
+</names>

@@ -1,0 +1,1 @@
+./json2xml.sh: error in input file: ',' or ']' expected! (Line 24:17)
