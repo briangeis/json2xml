@@ -1,6 +1,6 @@
 # **json2xml**
 
-A Bash script that parses a JSON file into XML data.
+Bash script that parses a JSON file into XML data.
 
 ## Installation
 
@@ -129,8 +129,9 @@ character listed above, a digit, a hyphen, or a period:
 If the first character is not a valid `NameStartChar`, a leading underscore
 is added to the name. Any character encountered in the JSON property name that
 is not a `NameStartChar` or `NameChar` as defined above is skipped, except for
-spaces which are replaced with underscores. If no valid characters are found,
-a generic name of `element` will be used for the XML name.
+spaces which are replaced with underscores to preserve the original formatting.
+If no valid characters are found, a generic name of `element` will be used for
+the XML name.
 
 ## Special Character Handling
 
@@ -212,6 +213,9 @@ The following test cases are used to verify proper error handling:
 * `error_colon.json`: Property missing separating `:`
 * `error_string.json`: String missing terminating `"`
 * `error_value.json`: Numerical value is invalid
+
+These test cases, along with their output results, can be found in the
+repository `test cases` folder.
 
 ## License
 
