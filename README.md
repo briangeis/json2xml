@@ -2,6 +2,18 @@
 
 Bash script that parses a JSON file into XML data.
 
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Sample Output](#sample-output)
+* [XML Name Handling](#xml-name-handling)
+* [Special Character Handling](#special-character-handling)
+* [Error Handling](#error-handling)
+* [Test Cases](#test-cases)
+* [License](#license)
+* [References](#references)
+
 ## Installation
 
 Place `json2xml.sh` into desired location and make it executable with
